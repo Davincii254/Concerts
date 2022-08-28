@@ -7,13 +7,13 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
-b1 = Band.new("Ragers", "glen")
-b2 = Band.new("Beats", "richmond")
-b3 = Band.new("Drum", "glenmont")
+b1 = Band.new("Ragers", "Nairobi")
+b2 = Band.new("Beats", "Nv")
+b3 = Band.new("Kita", "Kt")
 
-v1 = Venue.new("msg", "brooklyn")
-v2 = Venue.new("capital", "dc")
-v3 = Venue.new("falcons", "atlanta")
+v1 = Venue.new("msg", "Nv")
+v2 = Venue.new("capital", "Kt")
+v3 = Venue.new("Swive", "Nairobi")
 
 
 c1 = Concert.new("Nov. 3", b1, v1)
